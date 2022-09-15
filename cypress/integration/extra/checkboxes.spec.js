@@ -1,4 +1,4 @@
-describe('Checkboxes', () => {
+describe.skip('Checkboxes', () => {
 
     beforeEach(() => {
       cy.visit('https://bit.ly/3vswFBe')

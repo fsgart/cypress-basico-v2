@@ -1,4 +1,4 @@
-describe('Search', () => {
+describe.skip('Search', () => {
     beforeEach(() => {
         cy.intercept(
             'GET',

@@ -1,4 +1,4 @@
-describe('Duck Duck go Search', () => {
+describe.skip('Duck Duck go Search', () => {
     beforeEach(() => {
         cy.visit('https://duckduckgo.com/')
         cy.get('input[type="text"]')
